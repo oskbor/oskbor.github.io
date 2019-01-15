@@ -2,12 +2,11 @@ mamma
 pappa
 Vilhelm
 Edgar
-telefon
-bord
-näsa
-tunga
-bord
-bok
+
+morfar
+mormor
+farfar
+farmor
 
 tomte
 gran
@@ -16,11 +15,17 @@ julklapp
 
 lampa
 blomma
+telefon
+bord
+bok
 
 navel
 tumme
 öga
 öra
+näsa
+tunga
+mun
 
 banan
 äpple
@@ -31,11 +36,6 @@ kudde
 blöja
 pussel
 
-morfar
-mormor
-farfar
-farmor
-
 gris
 ko
 hund
@@ -45,6 +45,11 @@ giraff
 anka
 apa
 docka
+fågel
+fisk
+groda
+lejon
+tiger
 
 soffa
 säng
@@ -74,3 +79,8 @@ simma
 gå
 springa
 äta
+hoppa
+
+röd
+stor
+liten
