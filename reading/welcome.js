@@ -10,6 +10,7 @@ export default function settings(state, setState) {
       <h2> Lär dig läsa </h2>
       <button name="settings" @click=${onClick}> Inställningar </button>
       <button name="reading" @click=${onClick}> Börja </button>
+      <button name="stats" @click=${onClick}> Statistik </button>
     </div>
     `
 

@@ -3,6 +3,7 @@ import {render, html} from 'https://unpkg.com/lit-html@0.14.0/lit-html.js'
 import Settings from './settings.js'
 import Welcome from './welcome.js'
 import Read from './read.js'
+import Stats from './stats.js'
 const wait = (time) => new Promise(res => setTimeout(res, time));
 function shuffle(array) {
     let counter = array.length;
@@ -48,8 +49,11 @@ async function main() {
         if (state.view === 'settings') {
             view = Settings(state, setState)
         }
-        else if( state.view ==='welcome') {
+        else if(state.view ==='welcome') {
             view = Welcome(state, setState)
+        }
+        else if(state.view === 'stats') {
+            view = Stats(state, setState)
         }
         else {
             view = Read(state, setState)
