@@ -31,6 +31,12 @@ banan
 äpple
 pannkaka
 ägg
+morot
+potatis
+broccoli
+ärtor
+leverpastej
+smör
 
 kudde
 blöja
@@ -50,6 +56,7 @@ fisk
 groda
 lejon
 tiger
+häst
 
 soffa
 säng
@@ -74,6 +81,8 @@ bil
 tåg
 traktor
 synth
+grävmaskin
+lastbil
 
 simma
 gå
@@ -82,5 +91,21 @@ springa
 hoppa
 
 röd
+blå
+grön
+gul
+rosa
+lila
+
+glad
+arg
+ledsen
+
 stor
 liten
+lång
+kort
+tjock
+smal
+ren
+smutsig
