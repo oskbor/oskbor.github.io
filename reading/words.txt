@@ -2,6 +2,8 @@ mamma
 pappa
 Vilhelm
 Edgar
+David
+Alma
 
 morfar
 mormor
@@ -18,6 +20,7 @@ blomma
 telefon
 bord
 bok
+stol
 
 navel
 tumme
@@ -37,6 +40,10 @@ broccoli
 ärtor
 leverpastej
 smör
+ost
+gurka
+falukorv
+köttbullar
 
 kudde
 blöja
@@ -57,6 +64,8 @@ groda
 lejon
 tiger
 häst
+skata
+duva
 
 soffa
 säng
@@ -83,12 +92,17 @@ traktor
 synth
 grävmaskin
 lastbil
+motorcykel
+cykel
 
 simma
 gå
 springa
 äta
 hoppa
+krypa
+smyga
+lägga sig
 
 röd
 blå
@@ -109,3 +123,10 @@ tjock
 smal
 ren
 smutsig
+
+skor
+overall
+mössa
+vantar
+
+snor
