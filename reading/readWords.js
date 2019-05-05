@@ -1,19 +1,9 @@
 import {render, html} from 'https://unpkg.com/lit-html@0.14.0/lit-html.js'
-import shuffle from './shuffle.js';
+import pickWords from './utils/picker.js';
 let currentSetIndex = 0;
 let askIfProceed = false
 
-const pickWords = (words, nbrOfWords) => {
-    const array = shuffle(Object.values(words))
-    return array.sort(
-        (a, b) => {
-            const shownDiff = a.timesShown - b.timesShown;
-            const lastShownDiff = a.lastShown  - b.lastShown 
-            return shownDiff || lastShownDiff
-        }
-    ).map(w => w.word)
-    .splice(0, nbrOfWords)
-}
+
 
 export default function read(state, setState) {
     const currentSet = state.activeSets[currentSetIndex];
@@ -73,7 +63,7 @@ export default function read(state, setState) {
             })  
         }, state.timePerWord)
         return html`
-        <h1 class="reading"> ${currentWord} </h1>
+        <h1 class="reading words"> ${currentWord} </h1>
         `
 
 
