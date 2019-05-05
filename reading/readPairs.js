@@ -60,7 +60,7 @@ export default function read(state, setState) {
                     lastShown: Date.now()
                 }}
             })  
-        }, state.timePerWord)
+        }, state.timePerPair)
         return html`
         <h1 class="reading pairs"> ${currentPair} </h1>
         `
