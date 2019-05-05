@@ -61,7 +61,7 @@ export default function read(state, setState) {
                     lastShown: Date.now()
                 }}
             })  
-        }, state.timePerWord)
+        }, Number(state.timePerWord))
         return html`
         <h1 class="reading words"> ${currentWord} </h1>
         `
