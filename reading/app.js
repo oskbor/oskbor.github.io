@@ -12,7 +12,7 @@ const defaults = {
     wordsPerSet: 5,
     setRepetitions: 3,
     timePerWord: 1000,
-    timePerPair: 1900,
+    timePerPair: 1500,
     activeSets: [],
     activeSetsOfPairs: [],
     words: {},
