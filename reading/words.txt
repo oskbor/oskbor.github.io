@@ -148,6 +148,8 @@ krypa
 smyga
 lägga sig
 backa
+dansa
+brottas
 
 röd
 blå
@@ -168,6 +170,7 @@ tjock
 smal
 ren
 smutsig
+stark
 
 skor
 overall
@@ -190,3 +193,13 @@ skosnöre
 byxor
 tofflor
 strumpor
+
+piano
+elgitarr
+trumma
+trumpet
+klarinett
+harpa
+
+hammare
+iPad
