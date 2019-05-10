@@ -1,9 +1,11 @@
 liten apa
 liten anka
 liten sked
+liten macka
 
 stor lastbil
 stor sked
+stor grävmaskin
 
 rosa gris
 blå soffa
@@ -15,7 +17,8 @@ lila blomma
 gul grävmaskin
 gul overall
 gul banan
-
+svart cykel
+vit blöja
 
 glad mamma
 glad pappa
@@ -27,3 +30,4 @@ smal bok
 smutsig traktor
 lång pappa
 långt tåg
+
