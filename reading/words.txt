@@ -29,6 +29,7 @@ tumme
 näsa
 tunga
 mun
+tänder
 
 banan
 äpple
@@ -50,6 +51,7 @@ korvar
 jordgubbe
 apelsin
 ris
+klämmis
 
 kudde
 blöja
@@ -124,6 +126,12 @@ motorcykel
 cykel
 båt
 barnvagn
+dumper
+skylift
+gaffeltruck
+sopbil
+tippbil
+traktorgrävare
 
 cykelhjälm
 vattenflaska
@@ -139,6 +147,7 @@ hoppa
 krypa
 smyga
 lägga sig
+backa
 
 röd
 blå
@@ -165,6 +174,13 @@ overall
 mössa
 vantar
 paraply
+
+framåt
+bakåt
+där
+upp
+ner
+
 
 snor
 
