@@ -40,7 +40,7 @@ export default function read(state, setState) {
                 askIfProceed = true
                 updatedSet.repetitionsDone++
                 updatedSet.currentPairIndex = 0
-                if (updatedSet.repetitionsDone === state.setRepetitions) {
+                if (updatedSet.repetitionsDone >= state.setRepetitions) {
                     /**
                      *  shift one word and wipe the repetions,
                      *  so that the next time the set contains one new word
