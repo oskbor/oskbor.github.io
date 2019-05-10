@@ -8,7 +8,7 @@ export default function stats(state, setState) {
     return html`
     <div class="stats">
       <h2> Lärda ord </h2>
-<pre>${state.words.filter( w=> w.timesShown >= 15).map(w => w.word).join('/n')}</pre>
+<pre>${Object.values(state.words).filter( w=> w.timesShown >= 15).map(w => w.word).join('/n')}</pre>
 
       <h2> Statistik </h2>
       <pre>${JSON.stringify(state, null , 2)}</pre>
