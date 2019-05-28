@@ -8,14 +8,11 @@ stor sked
 stor grävmaskin
 
 rosa gris
-blå soffa
 röd lampa
-röd motorcykel
-grön broccoli
+
 grön gurka
 lila blomma
-gul grävmaskin
-gul overall
+
 gul banan
 svart cykel
 vit blöja
@@ -25,8 +22,7 @@ glad pappa
 arg hund
 
 tjock hund
-tjock bok
-smal bok
+
 smutsig traktor
 lång pappa
 långt tåg
