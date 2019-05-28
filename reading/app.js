@@ -33,7 +33,7 @@ async function main() {
         setTimeout(() =>renderApp(state), 0)
     }
     
-    function renderApp() {
+    async function renderApp() {
         let view
         if (state.view === 'settings') {
             view = Settings(state, setState)
@@ -42,7 +42,7 @@ async function main() {
             view = Welcome(state, setState)
         }
         else if(state.view === 'stats') {
-            view = Stats(state, setState)
+            view = await Stats(state, setState)
         }
         else if(state.view === 'pairs') {
             view = ReadPairs(state, setState)

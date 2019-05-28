@@ -1,71 +1,9 @@
-mamma
-pappa
-Vilhelm
-Edgar
-David
-Alma
-
-morfar
-mormor
-farfar
-farmor
-
-tomte
-gran
-snögubbe
-julklapp
-
-lampa
-blomma
-telefon
-bord
-bok
-stol
-
-navel
-tumme
-öga
-öra
-näsa
-tunga
-mun
-tänder
-
-banan
-äpple
-pannkaka
-ägg
-morot
-potatis
-broccoli
-ärtor
-leverpastej
-smör
-ost
-gurka
-falukorv
-köttbullar
-vatten
-macka
 korvar
 jordgubbe
 apelsin
 ris
 klämmis
 
-kudde
-blöja
-pussel
-
-gris
-ko
-hund
-katt
-elefant
-giraff
-anka
-apa
-docka
 fågel
 fisk
 groda
@@ -76,15 +14,6 @@ skata
 duva
 krokodil
 
-soffa
-säng
-stol
-fönster
-dörr
-diskmaskin
-tvättmaskin
-kylskåp
-kök
 klocka
 handfat
 toalett
@@ -96,11 +25,7 @@ dammsugare
 plånbok
 kalender
 
-sked
-tallrik
-nappflaska
-haklapp
-mugg
+
 gaffel
 kniv
 glas
@@ -110,14 +35,9 @@ stekpanna
 skål
 diskborste
 
-toa
-gosedjur
 synth
 
-vagn
-bil
-tåg
-traktor
+
 polisbil
 brandbil
 grävmaskin
@@ -139,10 +59,6 @@ tandborste
 väska
 sax
 
-simma
-gå
-springa
-äta
 hoppa
 krypa
 smyga
@@ -151,10 +67,6 @@ backa
 dansa
 brottas
 
-röd
-blå
-grön
-gul
 rosa
 lila
 
@@ -162,12 +74,6 @@ glad
 arg
 ledsen
 
-stor
-liten
-lång
-kort
-tjock
-smal
 ren
 smutsig
 stark
@@ -183,7 +89,6 @@ bakåt
 där
 upp
 ner
-
 
 snor
 
