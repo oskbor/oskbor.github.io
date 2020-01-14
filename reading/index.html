@@ -1,6 +1,12 @@
 <html>
     <head>
         <title>Läsa</title>
+        <script src="https://apis.google.com/js/api.js"></script>
+        <script>
+          gapi.load("client:auth2", function() {
+            gapi.auth2.init({client_id: "909662582544-kdgb2g64jfteeca2e8l8g6qnp1223kv2.apps.googleusercontent.com"});
+          });
+        </script>
         <script async src="./app.js" type="module"></script>
         <link rel="stylesheet" type="text/css" href="./app.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
