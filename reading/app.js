@@ -1,4 +1,4 @@
-import { render, html } from "https://unpkg.com/lit-html@0.14.0/lit-html.js";
+import { render, html } from "https://unpkg.com/lit-html";
 
 import Settings from "./settings.js";
 import Welcome from "./welcome.js";

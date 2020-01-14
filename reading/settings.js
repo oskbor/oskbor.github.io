@@ -1,4 +1,4 @@
-import {html} from 'https://unpkg.com/lit-html@0.14.0/lit-html.js'
+import {html} from 'https://unpkg.com/lit-html'
 
 export default function settings(state, setState) {
     const onSubmit = (e) => {

@@ -1,4 +1,4 @@
-import {render, html} from 'https://unpkg.com/lit-html@0.14.0/lit-html.js'
+import {render, html} from 'https://unpkg.com/lit-html'
 import pickWords from './utils/picker.js';
 let currentSetIndex = 0;
 let askIfProceed = false
