@@ -1,4 +1,4 @@
-import {html} from 'https://unpkg.com/lit-html'
+import { render, html } from "https://unpkg.com/lit-html?module";
 
 export default function settings(state, setState) {
     const onClick = (e) => {

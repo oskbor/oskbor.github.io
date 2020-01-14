@@ -1,4 +1,4 @@
-import { html } from 'https://unpkg.com/lit-html'
+import { html } from 'https://unpkg.com/lit-html?module'
 import pick from './utils/picker.js';
 let currentSetIndex = 0;
 let askIfProceed = false

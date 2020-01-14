@@ -1,8 +1,7 @@
-import {render, html} from 'https://unpkg.com/lit-html'
+import {render, html} from 'https://unpkg.com/lit-html?module'
 import pickWords from './utils/picker.js';
 let currentSetIndex = 0;
 let askIfProceed = false
-
 
 
 export default function read(state, setState) {

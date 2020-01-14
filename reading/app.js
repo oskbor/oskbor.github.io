@@ -1,4 +1,4 @@
-import { render, html } from "https://unpkg.com/lit-html";
+import { render, html } from "https://unpkg.com/lit-html?module";
 
 import Settings from "./settings.js";
 import Welcome from "./welcome.js";
@@ -56,6 +56,9 @@ async function main() {
     } else {
       view = ReadWords(state, setState);
     }
+    console.log('rendering view ----')
+    console.log(view)
+    console.log('renderer', render)
     return render(view, document.getElementById("app"));
   }
   const wordMapper = (w, i) => ({
