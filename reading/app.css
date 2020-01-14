@@ -28,3 +28,7 @@ img.story {
   max-width: 90vh;
   max-height: 90vh;
 }
+
+pre {
+  font-family: inherit;
+}
