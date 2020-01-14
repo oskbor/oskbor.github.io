@@ -32,7 +32,7 @@ function ListStories() {
   }, [])
   if (loading) {
     return html`
-      loading....
+      ...
     `
   } else if (stories.length === 0) {
     return html`
@@ -40,10 +40,18 @@ function ListStories() {
     `
   } else if (!selectedStory) {
     return html`
+      <style>
+        li {
+          cursor: pointer;
+        }
+      </style>
       <ul>
         ${stories.map(
           s => html`
-            <li @click=${() => setSelectedStory(s)}>
+            <li
+              style="font-size:${Math.floor(160 / (s.title.length + 1))}vw;"
+              @click=${() => setSelectedStory(s)}
+            >
               ${s.title}
             </li>
           `
@@ -52,29 +60,62 @@ function ListStories() {
     `
   }
   return html`
-    <a-story .pages=${selectedStory.pages} />
+    <a-story
+      .pages=${selectedStory.pages}
+      .onDone=${() => setSelectedStory(null)}
+    />
   `
 }
 
 customElements.define('my-stories', component(ListStories))
 
-function Story({ pages }) {
+function Story({ pages, onDone }) {
   return html`
-    <macro-carousel>
+    <style>
+      article {
+        display: flex;
+        width: 100vw;
+      }
+      article div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+      }
+      article img {
+        max-width: 100vw;
+        max-height: 100vh;
+        min-height: 20vh;
+        min-width: 20vw;
+        background-color: #cccccc;
+      }
+    </style>
+    <macro-carousel style="--macro-carousel-slide-min-height: 100vh">
       ${pages.map(
         textOrUrl =>
           html`
             <article class="slide">
-              ${textOrUrl.startsWith('http')
-                ? html`
-                    <img src=${textOrUrl.replace('/open?', '/uc?')} />
-                  `
-                : html`
-                    <span>${textOrUrl}</span>
-                  `}
+              <div>
+                ${textOrUrl.startsWith('http')
+                  ? html`
+                      <img src=${textOrUrl.replace('/open?', '/uc?')} />
+                    `
+                  : html`
+                      <span
+                        style="font-size:${Math.floor(
+                          160 / (textOrUrl.length + 1)
+                        )}vw;"
+                        >${textOrUrl}</span
+                      >
+                    `}
+              </div>
             </article>
           `
       )}
+      <article class="slide" @click=${onDone}>
+      <div ><span  style="font-size: 20vw;">slut</span></div>
     </macro-carousel>
   `
 }
