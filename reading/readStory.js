@@ -1,23 +1,13 @@
-import { LitElement, html } from 'https://unpkg.com/@polymer/lit-element?module';
-
-
-class Stories extends LitElement {
-  static get properties() {
-    return { name: { type: String } };
-  }
-
-  constructor() {
-    super();
-    this.name = 'World';
-  }
-  
-  render() {
-    return html`<p>Hello, ${this.name}!</p>`;
-  }
-}
-
-customElements.define('read-stories', Stories);
+import { html } from 'https://unpkg.com/lit-html?module';
+import 'https://unpkg.com/macro-carousel'
 
 export default function read(state, setState) {
-  return html`<h1>OOO</h1>`
+  return html`<macro-carousel>
+  <article class="slide">Slide 1</article>
+  <article class="slide">Slide 2</article>
+  <article class="slide">Slide 3</article>
+  <article class="slide">Slide 4</article>
+  <article class="slide">Slide 5</article>
+  <article class="slide">Slide 6</article>
+</macro-carousel>`
 }

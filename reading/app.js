@@ -56,9 +56,6 @@ async function main() {
     } else {
       view = ReadWords(state, setState);
     }
-    console.log('rendering view ----')
-    console.log(view)
-    console.log('renderer', render)
     return render(view, document.getElementById("app"));
   }
   const wordMapper = (w, i) => ({
